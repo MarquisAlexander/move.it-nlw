@@ -5,7 +5,7 @@ import styles from '../styles/components/ChallengeBox.module.css';
 
 export function ChallengeBox() {
     const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
-    const { resetCountdown } = useContext(CountdownContext);
+    const { resetCountdown, state } = useContext(CountdownContext);
 
     function handleChallengeSucceeded() {
         completeChallenge();
@@ -18,7 +18,7 @@ export function ChallengeBox() {
     }
 
     return (
-        <div className={styles.challengeBoxContainer}>
+        <div className={state === true ? styles.challengeBoxContainer : styles.challengeBoxContainerDark}>
             { activeChallenge ? (
                 <div className={styles.challengeActive}>
                     <header>Ganhe {activeChallenge.amount} XP</header>
@@ -47,7 +47,7 @@ export function ChallengeBox() {
                     </footer>
                 </div>
             ) : (
-                <div className={styles.challengeNotActive}>
+                <div className={state ===true ? styles.challengeNotActive : styles.challengeNotActiveDark}>
                 <strong>Finalize um ciclo para receber desafios a serem completados</strong>
                 <p>
                     <img src="icons/level-up.svg" alt="Level Up"/>

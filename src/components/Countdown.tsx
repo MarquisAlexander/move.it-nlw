@@ -5,6 +5,7 @@ import { CountdownContext } from '../contexts/CountdownContext';
 
 export function Countdown() {
     const { minutes,
+            state,
             seconds, 
             isActive,
             hasFinished, 
@@ -17,7 +18,7 @@ export function Countdown() {
 
     return (
         <div>
-            <div className={styles.countdownContainer}>
+            <div className={state === true ? styles.countdownContainer : styles.countdownContainerDark}>
                 <div>
                     <span>{minuteLeft}</span>
                     <span>{minutesRight}</span>

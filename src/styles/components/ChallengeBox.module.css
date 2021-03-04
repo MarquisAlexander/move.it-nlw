@@ -108,3 +108,48 @@
 .challengeActive footer button:hover {
     filter: brightness(0.9);
 }
+
+/* darkMODE */
+
+.challengeBoxContainerDark {
+    height: 100%;
+
+    background: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.challengeNotActiveDark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challengeNotActiveDark strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text-white);
+}
+
+.challengeNotActiveDark p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+    max-width: 70%;
+    margin-top: 3rem;
+    color: var(--text-white);
+}
+
+.challengeNotActiveDark p img {
+    margin-bottom: 1rem;
+}

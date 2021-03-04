@@ -16,6 +16,9 @@
     --blue: #5965E0;
     --blue-dark: #4953B8;
     --blue-twitter: #2AA9E0;
+
+    --black: #666666;
+    --text-white: #fff;
 }
 
 @media(max-width: 1080px) {
