@@ -1,3 +1,61 @@
+<h1 align="center">
+    <img alt="Move.it" src="https://github.com/MarquisAlexander/move.it-nlw/blob/main/public/favicon.png?raw=true" />
+</h1>
+
+<h2 align="center">
+  <!--<img alt="Controle de tarefas" src=".github/rocket.svg" width="200px" />-->
+  🚀 Move.it
+</h2>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-informações">Informações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+</p>
+
+
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+
+Extras:
+
+- Main Libs
+  - [JS COOKIE](https://github.com/js-cookie/js-cookie)
+
+## 💻 Projeto
+
+O **Move.it** é um projeto que visa ajudar pessoas da sociedade moderna a mais especificamente pessoas que trabalham o dia todo em frente ao seus computadores.
+
+## 🤔 Informações
+
+Esse projeto foi desenvolvido baseado na aplicação Move.it da NextLevelWeek 04 da rockeseat.
+<h2 align="center">
+<img alt="Controle de tarefas" src="https://github.com/MarquisAlexander/production-controletarefa-frontend/blob/master/src/assets/rocket.svg" width="200px" />
+</h2>
+
+## 🎉 Aplicação online
+Uma das principais partes do evento foi o deploy da aplicação, com a aplicação online todos podemos testar você acessa ela [clicando aqui](https://moveit-3560vlagl-marquisalexander.vercel.app/).
+
+
+## 🖼 Layout
+![screen1](https://user-images.githubusercontent.com/51330232/109557209-8ccfd780-7ab6-11eb-9603-68134f23d807.PNG)
+
+### :muscle: Quem deu aquela força para não desistir?
+
+O pessoal da Rocketseat deram aquela mão quando as coisas ficaram ruins e me salvaram, sem me deixar desistir!
+Entrem na [na comunidade da Rocketseat :rocket:](https://discordapp.com/invite/gCRAFhc)
+
+README feito com ❤️ by **Meus amigos e MarquisAlexander**
+
+Se quiser baixar esse projeto na sua máquina e brincar com ele, pode seguir os passo a passo aqui a baixo :)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -30,5 +88,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
