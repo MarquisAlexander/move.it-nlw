@@ -1,3 +1,4 @@
+import { useContext } from 'react';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
@@ -9,6 +10,7 @@ import { ChallengeBox } from '../components/ChallengeBox';
 
 import styles from '../styles/pages/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
+import { CountdownContext } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 interface HomeProps {
@@ -18,6 +20,9 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
+  const { resetCountdown, state } = useContext(CountdownContext);
+
+
   console.log(props)
 
   return (
